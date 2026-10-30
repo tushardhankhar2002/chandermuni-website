@@ -1,1 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>M/S Chander Muni | MES Contractor for Roads, Buildings and Electrical Works</title>
+  <meta name="description" content="M/S Chander Muni is a Military Engineer Services (MES) contractor with 30+ years of experience in roads, buildings and electrical works.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:wght@600;700&family=Public+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
 
+  <header class="site-header">
+    <a class="brand" href="#top">M/S Chander Muni</a>
+    <button class="nav-toggle" aria-label="Open menu" aria-expanded="false" aria-controls="nav">Menu</button>
+    <nav id="nav" class="nav">
+      <a href="#works">Our works</a>
+      <a href="#about">About us</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main id="top">
+
+    <section class="hero">
+      <h1>Roads, buildings and electrical works for the Military Engineer Services.</h1>
+      <p class="lead">M/S Chander Muni has delivered MES contracts on time and to specification for more than 30 years.</p>
+      <div class="hero-actions">
+        <a class="btn" href="#contact">Get in touch</a>
+        <a class="btn btn-quiet" href="#works">See our works</a>
+      </div>
+    </section>
+
+    <section class="stats" aria-label="Our record">
+      <div><strong>30+</strong><span>years of experience</span></div>
+      <div><strong>200+</strong><span>tenders completed</span></div>
+      <div><strong>₹15 crore+</strong><span>in contracts executed, and counting</span></div>
+    </section>
+
+    <section id="works" class="section">
+      <h2>Our works</h2>
+      <p class="lead">We take on MES contracts in three areas of civil and electrical construction.</p>
+      <div class="works">
+        <article>
+          <h3>Roads</h3>
+          <p>Construction, repair and resurfacing of roads inside military stations and cantonments.</p>
+        </article>
+        <article>
+          <h3>Buildings</h3>
+          <p>New construction, renovation and maintenance of barracks, offices, residences and other service buildings.</p>
+        </article>
+        <article>
+          <h3>Electrical</h3>
+          <p>Internal and external electrical installation, wiring, lighting and maintenance works.</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="about" class="section about">
+      <h2>About us</h2>
+      <div class="about-body">
+        <p>M/S Chander Muni is a family-run contracting firm registered to work with the Military Engineer Services. Over three decades we have built a record of finishing government works properly and on schedule.</p>
+        <p>The firm is led by its founder, Sanjeev Kumar, and co-founder, Manish Kumar, who are brothers. Both take part in the work, from bidding on tenders to inspecting finished sites.</p>
+      </div>
+      <div class="people">
+        <div><h3>Sanjeev Kumar</h3><p>Founder</p></div>
+        <div><h3>Manish Kumar</h3><p>Co-founder</p></div>
+      </div>
+    </section>
+
+    <section id="contact" class="section contact">
+      <h2>Contact us</h2>
+      <p class="lead">Write to us about a tender, a subcontract or a partnership.</p>
+      <div class="contact-grid">
+        <form id="contact-form" novalidate>
+          <label for="name">Your name</label>
+          <input id="name" name="name" type="text" autocomplete="name" required>
+
+          <label for="email">Email address</label>
+          <input id="email" name="email" type="email" autocomplete="email" required>
+
+          <label for="message">Your message</label>
+          <textarea id="message" name="message" rows="5" required></textarea>
+
+          <p id="form-status" role="status" aria-live="polite"></p>
+          <button class="btn" type="submit">Send message</button>
+        </form>
+        <address>
+          <h3>M/S Chander Muni</h3>
+          <p>Add your office address here</p>
+          <p>Phone: <a href="tel:+910000000000">+91 00000 00000</a></p>
+          <p>Email: <a href="mailto:you@example.com">you@example.com</a></p>
+        </address>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <p>&copy; <span id="year"></span> M/S Chander Muni. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
