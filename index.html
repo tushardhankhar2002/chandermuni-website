@@ -2,106 +2,131 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>M/S Chander Muni | MES Contractor for Roads, Buildings and Electrical Works</title>
-  <meta name="description" content="M/S Chander Muni is a Military Engineer Services (MES) contractor with 30+ years of experience in roads, buildings and electrical works.">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Chander Muni - Civil construction, building works, roads, renovation and government contracting.">
+  <title>Chander Muni | Construction & Contractors</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Fraunces:wght@600;700&family=Public+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-
   <header class="site-header">
-    <a class="brand" href="#top">M/S Chander Muni</a>
-    <button class="nav-toggle" aria-label="Open menu" aria-expanded="false" aria-controls="nav">Menu</button>
-    <nav id="nav" class="nav">
-      <a href="#works">Our works</a>
-      <a href="#about">About us</a>
-      <a href="#contact">Contact</a>
+    <a class="brand" href="#home" aria-label="Chander Muni home">
+      <svg class="brand-mark" viewBox="0 0 88 76" role="img" aria-label="CM building logo">
+        <path d="M9 66V29L25 15V27L40 14V29L56 16V66" class="logo-building"/>
+        <path d="M17 66V39H48V66M27 39V50M39 39V50" class="logo-detail"/>
+        <path d="M17 8C8 13 5 22 7 31M71 8C80 13 83 22 81 31" class="logo-arc"/>
+        <text x="44" y="62" text-anchor="middle" class="logo-cm">CM</text>
+      </svg>
+      <span class="brand-copy"><strong>CHANDER MUNI</strong><small>CONSTRUCTION & CONTRACTORS</small></span>
+    </a>
+    <button class="menu-toggle" id="menuToggle" aria-label="Open navigation" aria-expanded="false">☰</button>
+    <nav class="nav" id="mainNav">
+      <a href="#home">Home</a><a href="#about">About</a><a href="#services">Services</a>
+      <a href="#founders">Founders</a><a href="#projects">Projects</a><a href="#contact" class="nav-cta">Contact Us</a>
     </nav>
   </header>
 
-  <main id="top">
+  <main>
+    <section class="hero" id="home">
+      <div class="hero-shade"></div>
+      <div class="hero-content">
+        <p class="eyebrow">BUILDING TRUST. BUILDING THE FUTURE.</p>
+        <h1>Strong Foundations.<br><span>Lasting Structures.</span></h1>
+        <p class="hero-text">Reliable construction solutions for civil works, buildings, roads and renovation projects.</p>
+        <div class="hero-actions">
+          <a class="button button-gold" href="#contact">Discuss Your Project</a>
+          <a class="button button-outline" href="#services">Explore Services</a>
+        </div>
+        <div class="hero-note"><span class="note-line"></span> MES Contractor · Delhi NCR & nearby regions</div>
+      </div>
+      <div class="hero-tag"><strong>CHANDER MUNI</strong><span>Construction & Contractors</span></div>
+    </section>
 
-    <section class="hero">
-      <h1>Roads, buildings and electrical works for the Military Engineer Services.</h1>
-      <p class="lead">M/S Chander Muni has delivered MES contracts on time and to specification for more than 30 years.</p>
-      <div class="hero-actions">
-        <a class="btn" href="#contact">Get in touch</a>
-        <a class="btn btn-quiet" href="#works">See our works</a>
+    <section class="trust-strip">
+      <div><strong>01</strong><span>Quality workmanship</span></div>
+      <div><strong>02</strong><span>Reliable execution</span></div>
+      <div><strong>03</strong><span>Professional approach</span></div>
+      <div><strong>04</strong><span>Safety-conscious work</span></div>
+    </section>
+
+    <section class="section about-section" id="about">
+      <div class="section-image">
+        <img src="https://images.unsplash.com/photo-1487958449943-2429e8be8625?auto=format&fit=crop&w=1100&q=85" alt="Modern architectural building">
+        <div class="image-caption"><strong>Built with purpose.</strong><span>Planned with care. Executed with commitment.</span></div>
+      </div>
+      <div class="section-copy">
+        <p class="eyebrow">ABOUT CHANDER MUNI</p>
+        <h2>Committed to quality at every stage.</h2>
+        <p>Chander Muni provides construction and contracting services across civil works, building projects, road works and renovation. As an MES contractor, we focus on disciplined execution, dependable coordination and quality workmanship.</p>
+        <a class="text-link" href="#contact">Let’s discuss your requirement <span>↗</span></a>
       </div>
     </section>
 
-    <section class="stats" aria-label="Our record">
-      <div><strong>30+</strong><span>years of experience</span></div>
-      <div><strong>200+</strong><span>tenders completed</span></div>
-      <div><strong>₹15 crore+</strong><span>in contracts executed, and counting</span></div>
-    </section>
-
-    <section id="works" class="section">
-      <h2>Our works</h2>
-      <p class="lead">We take on MES contracts in three areas of civil and electrical construction.</p>
-      <div class="works">
-        <article>
-          <h3>Roads</h3>
-          <p>Construction, repair and resurfacing of roads inside military stations and cantonments.</p>
+    <section class="section founders-section" id="founders">
+      <div class="section-heading founders-heading">
+        <div><p class="eyebrow">THE PEOPLE BEHIND THE WORK</p><h2>Our Founders</h2></div>
+        <p>Leadership built on commitment, experience and a focus on dependable execution.</p>
+      </div>
+      <div class="founder-grid">
+        <article class="founder-card">
+          <div class="founder-photo"><img src="images/sanjeev-kumar.jpg" alt="Mr. Sanjeev Kumar, Founder of Chander Muni" loading="lazy"></div>
+          <div class="founder-info"><span class="founder-label">FOUNDER</span><h3>Mr. Sanjeev Kumar</h3><p>Chander Muni · Construction &amp; Contractors</p></div>
         </article>
-        <article>
-          <h3>Buildings</h3>
-          <p>New construction, renovation and maintenance of barracks, offices, residences and other service buildings.</p>
-        </article>
-        <article>
-          <h3>Electrical</h3>
-          <p>Internal and external electrical installation, wiring, lighting and maintenance works.</p>
+        <article class="founder-card founder-pending">
+          <div class="founder-placeholder" aria-label="Founder photograph to be added"><span>MK</span></div>
+          <div class="founder-info"><span class="founder-label">FOUNDER</span><h3>Mr. Manish Kumar</h3><p>Photograph coming soon</p></div>
         </article>
       </div>
     </section>
 
-    <section id="about" class="section about">
-      <h2>About us</h2>
-      <div class="about-body">
-        <p>M/S Chander Muni is a family-run contracting firm registered to work with the Military Engineer Services. Over three decades we have built a record of finishing government works properly and on schedule.</p>
-        <p>The firm is led by its founder, Sanjeev Kumar, and co-founder, Manish Kumar, who are brothers. Both take part in the work, from bidding on tenders to inspecting finished sites.</p>
+    <section class="section services-section" id="services">
+      <div class="section-heading">
+        <div><p class="eyebrow">WHAT WE DO</p><h2>Our Services</h2></div>
+        <p>Practical construction solutions, delivered with attention to detail.</p>
       </div>
-      <div class="people">
-        <div><h3>Sanjeev Kumar</h3><p>Founder</p></div>
-        <div><h3>Manish Kumar</h3><p>Co-founder</p></div>
-      </div>
-    </section>
-
-    <section id="contact" class="section contact">
-      <h2>Contact us</h2>
-      <p class="lead">Write to us about a tender, a subcontract or a partnership.</p>
-      <div class="contact-grid">
-        <form id="contact-form" novalidate>
-          <label for="name">Your name</label>
-          <input id="name" name="name" type="text" autocomplete="name" required>
-
-          <label for="email">Email address</label>
-          <input id="email" name="email" type="email" autocomplete="email" required>
-
-          <label for="message">Your message</label>
-          <textarea id="message" name="message" rows="5" required></textarea>
-
-          <p id="form-status" role="status" aria-live="polite"></p>
-          <button class="btn" type="submit">Send message</button>
-        </form>
-        <address>
-          <h3>M/S Chander Muni</h3>
-          <p>New Delhi 110043</p>
-          <p>Phone: <a href="tel:+918920991692">+91 892099 1692</a></p>
-          <p>Email: <a href="mailto:dt.tushar1692@gmail.com">dt.tushar1692@gmail.com.com</a></p>
-        </address>
+      <div class="service-grid">
+        <article class="service-card"><span class="service-number">01</span><div class="service-icon">▦</div><h3>Civil Construction</h3><p>Execution support for a range of civil construction requirements.</p></article>
+        <article class="service-card"><span class="service-number">02</span><div class="service-icon">▥</div><h3>Building Works</h3><p>Building construction and associated structural works.</p></article>
+        <article class="service-card"><span class="service-number">03</span><div class="service-icon">⌁</div><h3>Road Works</h3><p>Road-related construction, repair and improvement works.</p></article>
+        <article class="service-card"><span class="service-number">04</span><div class="service-icon">⌂</div><h3>Renovation</h3><p>Renovation, repair and improvement of existing spaces.</p></article>
+        <article class="service-card"><span class="service-number">05</span><div class="service-icon">▤</div><h3>Government Contracts</h3><p>Contracting services for eligible institutional and public works.</p></article>
       </div>
     </section>
 
+    <section class="project-band" id="projects">
+      <div class="project-band-copy"><p class="eyebrow">OUR WORK</p><h2>Every project deserves<br>the right foundation.</h2><p>Add photographs of your completed projects here to help visitors see your actual work and capabilities.</p><a class="button button-gold" href="#contact">Enquire About a Project</a></div>
+      <div class="project-photos">
+        <img src="https://images.unsplash.com/photo-1541976590-713941623f8b?auto=format&fit=crop&w=900&q=85" alt="Construction site">
+        <img src="https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=900&q=85" alt="Building construction" onerror="this.src='https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=900&q=85'">
+      </div>
+    </section>
+
+    <section class="section contact-section" id="contact">
+      <div class="contact-intro"><p class="eyebrow">GET IN TOUCH</p><h2>Have a project in mind?</h2><p>Share a few details. The Chander Muni team can get back to you to discuss the requirement.</p>
+        <div class="contact-detail"><span>PHONE</span><strong>+91 XXXXX XXXXX</strong></div>
+        <div class="contact-detail"><span>EMAIL</span><strong>your-email@example.com</strong></div>
+        <div class="contact-detail"><span>LOCATION</span><strong>Delhi NCR, India</strong></div>
+        <a class="text-link" href="https://www.google.com/maps/search/?api=1&query=Chander+Muni+Construction" target="_blank" rel="noopener">Find us on Google Maps ↗</a>
+      </div>
+      <form class="contact-form" id="contactForm">
+        <label>Your name<input type="text" id="name" placeholder="Enter your name" required></label>
+        <label>Phone number<input type="tel" id="phone" placeholder="Enter your phone number" required></label>
+        <label>What do you need help with?<select id="service"><option>Civil Construction</option><option>Building Works</option><option>Road Works</option><option>Renovation</option><option>Government Contract</option><option>Other</option></select></label>
+        <label>Project details<textarea id="message" rows="4" placeholder="Tell us briefly about your project"></textarea></label>
+        <button class="button button-dark" type="submit">Send Enquiry via WhatsApp ↗</button>
+        <p class="form-note">This form opens WhatsApp with your enquiry. Replace the demo phone number in script.js before publishing.</p>
+      </form>
+    </section>
   </main>
 
-  <footer class="site-footer">
-    <p>&copy; <span id="year"></span> M/S Chander Muni. All rights reserved.</p>
+  <footer class="footer">
+    <a class="footer-brand" href="#home">CHANDER MUNI</a>
+    <span>Construction & Contractors · MES Contractor</span>
+    <span>© <span id="year"></span> Chander Muni. All rights reserved.</span>
   </footer>
-
+  <a class="whatsapp-float" id="whatsappLink" href="#" aria-label="Chat on WhatsApp">☏</a>
   <script src="script.js"></script>
 </body>
 </html>
