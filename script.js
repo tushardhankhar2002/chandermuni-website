@@ -1,6 +1,6 @@
 // IMPORTANT: Replace this with the company's WhatsApp number in international format.
 // India example: 919876543210 (country code 91, no +, spaces or dashes)
-const WHATSAPP_NUMBER = "91XXXXXXXXXX";
+const WHATSAPP_NUMBER = "918920991692";
 
 document.getElementById("year").textContent = new Date().getFullYear();
 
